@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: tahoma;
+	background-color: #f5f6f7;
+	
+}
+.header h1 {
+	text-align: center;
+	background-color: #0a0a23;
+	color: #fff;
+	border-top: 30px solid #fdb347;
+	padding: 60px;
+	text-transform: uppercase;
+	
+}
+.animal-information {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.cat, .horse, .monkey, .tiger {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	gap: 30px;
+	margin-top: 110px;
+	padding-top: 30px;
+	border-top: 3px solid black; 
+	
+}
+p {
+	max-width: 45%;
+	min-width: 350px;
+	padding: 5px;
+	
+}
+img {
+	max-width: 100%;
+	display: block;
+	object-fit: cover;
+	border-radius: 10px;
+	
+}
+
+.cat {
+	margin-top: none;
+	border-top: none;
+	margin-top: -20px;
+}
+strong {
+	font-size: larger;
+}
